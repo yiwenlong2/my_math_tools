@@ -1,0 +1,15 @@
+[package]
+name = "chart"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+data_struct={path="../data_struct"}
+math_array_tools={path="../math_array_tools"}
+read_file_into_data={path="../file_io/read_file_into_data"}
+csv="*"
+integral_square_root="*"
+mathru = "0.10.0"
+array_tools={path="../array_tools"}
