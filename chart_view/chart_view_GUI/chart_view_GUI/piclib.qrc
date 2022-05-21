@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file alias="myappico.ico">resource/favicon512.ico</file>
+    </qresource>
+</RCC>

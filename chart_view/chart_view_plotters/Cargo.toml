@@ -1,0 +1,19 @@
+[package]
+name = "chart_view_plotters"
+version = "0.1.0"
+authors = ["yiwenlong2 <yiwenlong@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[lib]
+crate-type=["cdylib"]
+
+[dependencies]
+libc="*"
+chart={path="../../chart"}
+data_struct={path="../../data_struct"}
+read_file_into_data={path="../../file_io/read_file_into_data"}
+csv="*"
+plotters = "0.3.1"
